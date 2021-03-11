@@ -20,4 +20,4 @@ for root, dirs, files in os.walk(root_dir):
 for i in range(len(my_list)):
     my_dict[key] = my_list[i]
     key *= 10
-print(my_dict)
+print(f'{my_dict}')
